@@ -16,6 +16,9 @@ def main():
         print("Error: invalid input")
         return
 
+if __name__ == '__main__':
+    main()
+
 result = int(input("valor: "))
 match result:
     case 0:
@@ -25,9 +28,6 @@ match result:
         print("Properly handle one case.")
 
 print("ok")
-
-if __name__ == '__main__':
-    main()
 
     usuario_novo = Usuario(1000)
     usuario_novo.sacar(float(input("digite um valor para sacar: ")))
